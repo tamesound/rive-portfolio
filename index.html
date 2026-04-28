@@ -31,13 +31,13 @@ canvas {
 
 <script>
 const riveInstance = new rive.Rive({
-  src: "animation.riv?update=1",
+  src: "animation.riv",
   canvas: document.getElementById("riveCanvas"),
   autoplay: true,
   stateMachines: "State Machine 1",
 
   layout: new rive.Layout({
-    fit: rive.Fit.scaleDown,
+    fit: rive.Fit.cover,
     alignment: rive.Alignment.center
   }),
 
